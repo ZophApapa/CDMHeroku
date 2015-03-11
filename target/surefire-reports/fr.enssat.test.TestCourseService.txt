@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: fr.enssat.test.TestCourseService
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.48 sec <<< FAILURE! - in fr.enssat.test.TestCourseService
+addCourse(fr.enssat.test.TestCourseService)  Time elapsed: 0.479 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at org.hibernate.util.ConfigHelper.getResourceAsStream(ConfigHelper.java:170)
+	at org.hibernate.cfg.Configuration.getConfigurationInputStream(Configuration.java:2176)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2157)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2137)
+	at fr.enssat.dao.CdmDAO2Impl.<clinit>(CdmDAO2Impl.java:28)
+	at fr.enssat.services.CDMServiceImpl2.<init>(CDMServiceImpl2.java:11)
+	at fr.enssat.test.TestCourseService.addCourse(TestCourseService.java:33)
+

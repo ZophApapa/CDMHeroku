@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: fr.enssat.test.TestOrgUnitService
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in fr.enssat.test.TestOrgUnitService
+updateOrgUnit(fr.enssat.test.TestOrgUnitService)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class fr.enssat.dao.CdmDAO2Impl
+	at fr.enssat.services.CDMServiceImpl2.<init>(CDMServiceImpl2.java:11)
+	at fr.enssat.test.TestOrgUnitService.updateOrgUnit(TestOrgUnitService.java:34)
+
